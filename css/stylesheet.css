@@ -1,0 +1,45 @@
+
+
+#redblue {
+	z-index: 4401;
+}
+
+#schedule {
+	z-index: 4400;
+
+}
+
+#energy {
+	z-index: 3399;
+}
+
+#settings {
+	z-index: 3398;
+}
+
+#away{
+	z-index: 3397;
+
+}
+
+#done{
+	z-index: 3396;
+}
+
+
+
+/* #textbox {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#nexttext {
+	border: 1px solid blue;
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 5px;
+}*/

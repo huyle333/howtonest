@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>how to nest</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="SHORTCUT ICON" href="img/nest-logo.jpg"/>
+</head>
+<body>
+	<div class = "navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+			<div id = "logo">
+			<a href ="index.html" class = "navbar-brand"><img src = "img/nest-logo.jpg">how to nest</a>
+			</div>
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			</button>
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+				<ul class = "nav navbar-nav navbar-right">
+					<li class = "active"><a href="#">Home</a></li>
+					<li><a href="thermostat.html">Thermostat</a></li>
+					<li><a href="smokedetector.html">Smoke Detector</a></li>
+					<li><a href="login.php">Check Status</a></li>
+					<li class = "dropdown">
+					<a href="#" class = "dropdown-toggle" data-toggle = "dropdown">About <b class = "caret"></b></a>
+					<ul class = "dropdown-menu">
+						<li><a href = "http://huyle.me">Huy Le</a></li>
+						<li><a href = "#">Winston Chen</a></li>
+					</ul>
+					</li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id = "intro" class = "container">
+		<div class = "jumbotron">
+			<h1 class = "text-center"><span>how to</span> nest</h1>
+			<p>nest labs is a home automation company headquartered in Palo Alto, California, that designs and manufactures sensor-driven, Wi-Fi-enabled, self-learning, programmable thermostats and smoke detectors.</p>
+			<p>how to nest provides an interactive tutorial how to install nest products. Get started by clicking on either button to install the nest thermostat or smoke detector.</p>
+			<a href = "thermostat.html" class = "btn btn-default">How to Thermostat</a>
+			<a href = "smokedetector.html" class = "btn btn-info">How to Smoke Detector</a>
+		</div>
+	</div>
+	<div id = "myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class = "carousel-indicators">
+			<li data-target = "#myCarousel" data-slide-to ="0" class = "active"></li>
+			<li data-target = "#myCarousel" data-slide-to ="1"></li>
+			<li data-target = "#myCarousel" data-slide-to ="2"></li>
+		</ol>
+	
+		<div id = "codecarousel" class = "carousel-inner">
+			<div class ="item active">
+				<img src="img/logo1.jpg" alt = "nest labs" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<a href = "https://nest.com" class ="btn btn-default">nest labs</a>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="img/thermostat.jpg" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<a href = "thermostat.html" class = "btn btn-info">thermostat</a>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="img/smoke-detector.jpg" alt = "Smoke Detector" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<a href = "smokedetector.html" class = "btn btn-info">smoke detector</a>
+				</div>
+			</div>
+		</div>
+		<a id = "prev" class = "carousel-control left" href = "#myCarousel" data-slide = "prev"><span class = "glyphicon glyphicon-chevron-left"></span></a>
+		<a id = "next" class = "carousel-control right" href="#myCarousel" data-slide = "next">
+			<span class = "glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+	</br>
+	<div class = "container">
+		<div class = "row">
+		<div class = "col-md-6"></div>
+			<h3><a href = "#">Nest Thermostat</a></h3>
+			<p>Most people leave the house at one temperature and forget to change it. So the Nest Learning Thermostat learns your schedule, programs itself and can be controlled from your phone. Teach it well and the Nest Thermostat can lower your heating and cooling bills up to 20%.</p>
+			
+		<div class = "col-md-6"></div>
+			<h3><a href = "#">Nest Smoke Detector</a></h3>
+			<p> We all know why smoke alarms are torn off the ceiling or missing batteries: because every time you make stir-fry, the smoke alarm cries wolf. Or just as you're falling asleep, you hear a low-battery chirp. They've become annoying. And that's a safety issue.</p>
+			</br>
+			<a href ="thermostat.html" class ="btn btn-default">Install Thermostat</a>
+			<a href ="smokedetector.html" class ="btn btn-info">Install Smoke Detector</a>
+		</div>
+	</div>
+	<br></br><br></br>
+	<div class = "navbar navbar-default navbar-fixed-bottom">
+	<div class = "container">
+	<p class = "navbar-text pull-left">Copyright &#169 2014</p> <a href = "http://getbootstrap.com/" class = " navbar-btn btn-info btn pull-right">Powered by Bootstrap</a>
+	</div>
+	</div>
+	<div class = "modal fade" action = "send_form_email.php" id = "contact" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<form class = "form-horizontal">
+					<div class = "modal-header">
+						<h4> Contact: How To Nest</h4>
+					</div>
+						<div class = "modal-body">
+							<div class = "form-group">
+								<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+									<div class = "col-lg-10">
+										<input type = "text" class = "form-control" id="contact-name" placeholder = "Full Name">
+									</div>
+							</div>
+						<div class = "form-group">
+							<label for = "contact-email" class = "col-lg-2 control-label">E-mail:</label>
+								<div class = "col-lg-10">
+									<input type = "email" class = "form-control" id="contact-e-mail" placeholder = "Your E-mail">
+								</div>
+						</div>
+						<div class = "form-group">
+							<label for = "contact-sub" class = "col-lg-2 control-label">Subject:</label>
+								<div class = "col-lg-10">
+									<input type = "text" class = "form-control" id="contact-sub" placeholder = "Subject">
+								</div>
+						</div>
+							<div class = "form-group">
+								<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+									<div class = "col-lg-10">
+										<textarea class = "form-control" rows ="8" id="contact-msg"></textarea>
+									</div>
+							</div>
+								<div class = "modal-footer">
+									<button type = "submit" class = "btn btn-primary">Submit</button>
+										<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+								</div>
+						</div>
+			</div>
+		</div>
+	</div>	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

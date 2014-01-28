@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>how to thermostat</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="SHORTCUT ICON" href="img/nest-logo.jpg"/>
+</head>
+<body>
+	<div class = "navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+			<div id = "logo">
+			<a href ="index.html" class = "navbar-brand"><img src = "img/nest-logo.jpg">how to nest</a>
+			</div>
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			</button>
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+				<ul class = "nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li class = "active"><a href="#">Thermostat</a></li>
+					<li><a href="smokedetector.html">Smoke Detector</a></li>
+					<li><a href="login.php">Check Status</a></li>
+					<li class = "dropdown">
+					<a href="#" class = "dropdown-toggle" data-toggle = "dropdown">About <b class = "caret"></b></a>
+					<ul class = "dropdown-menu">
+						<li><a href = "http://huyle.me">Huy Le</a></li>
+						<li><a href = "#">Winston Chen</a></li>
+					</ul>
+					</li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id = "intro" class = "container">
+		<div class = "jumbotron text-center">
+			<h1><span>how to</span> thermostat</h1>
+			<p>step-by-step installation of nest thermostat.</p>
+			<p>The Nest Thermostat is built around an operating system that allows interaction with the thermostat via spinning and clicking of its control wheel, which brings up option menus for switching from heating to cooling, access to device settings, energy history, and scheduling. Users can control Nest without a touch screen or other input device.</p>
+		</div>
+	</div>
+
+	<div class ="text-center">
+	<h2>Unboxing</h2>
+	</div>
+	</br>
+
+	<div id = "myCarousel1" class="carousel slide" data-ride="carousel">
+		<ol class = "carousel-indicators">
+			<li data-target = "#myCarousel1" data-slide-to ="0" class = "active"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="1"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="2"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="3"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="4"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="5"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="6"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="7"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="8"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="9"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="10"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="11"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="12"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="13"></li>
+			<li data-target = "#myCarousel1" data-slide-to ="14"></li>
+		</ol>
+	
+		<div id = "codecarousel" class = "carousel-inner">
+			<div class ="item active">
+				<img src="setup/nest-box.jpg" alt = "nest labs" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Unboxing the nest thermostat. What's in the box?</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo1.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Grab your nest thermostat box and find a clear space to leave the material.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo2.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Open the nest thermostat. Here's what you find!</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo3.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The nest thermostat has a plastic cover, which you can remove.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo4.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Your nest thermostat with the plastic cover removed.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo5.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The thermostat has a USB connector and a wall connector on the back.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo6.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Underneath the thermostat are the instruction manuals.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo7.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Follow the installation guide for extra help.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo8.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest wall plate, in which you will wire the corresponding ports.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo9.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You can see the connector input, where you will input the thermostat into the wall plate.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo10.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The box contains the screws needed to keep the wall plate on the wall.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo11.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The box also contains a screwdriver to screw or unscrew all the necessary bolts.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo12.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The box contains instructions for installing the nest thermostat on an electrical box.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thermo13.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The box contains an optional mounting kit, rectangular style to cover the holes of the previous thermostat when installing the nest thermostat.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/thecompleteset.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">All the items are gathered together.</p>
+				</div>
+			</div>
+		</div>
+		<a id = "prev" class = "carousel-control left" href = "#myCarousel1" data-slide = "prev"><span class = "glyphicon glyphicon-chevron-left"></span></a>
+		<a id = "next" class = "carousel-control right" href="#myCarousel1" data-slide = "next">
+			<span class = "glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+
+	<br></br></br>
+
+	<div class ="text-center">
+	<h2>Installation</h2>
+	</div>
+	</br>
+	<div id = "myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class = "carousel-indicators">
+			<li data-target = "#myCarousel" data-slide-to ="0" class = "active"></li>
+			<li data-target = "#myCarousel" data-slide-to ="1"></li>
+			<li data-target = "#myCarousel" data-slide-to ="2"></li>
+			<li data-target = "#myCarousel" data-slide-to ="3"></li>
+			<li data-target = "#myCarousel" data-slide-to ="4"></li>
+			<li data-target = "#myCarousel" data-slide-to ="5"></li>
+			<li data-target = "#myCarousel" data-slide-to ="6"></li>
+			<li data-target = "#myCarousel" data-slide-to ="7"></li>
+			<li data-target = "#myCarousel" data-slide-to ="8"></li>
+			<li data-target = "#myCarousel" data-slide-to ="9"></li>
+			<li data-target = "#myCarousel" data-slide-to ="10"></li>
+			<li data-target = "#myCarousel" data-slide-to ="11"></li>
+			<li data-target = "#myCarousel" data-slide-to ="12"></li>
+			<li data-target = "#myCarousel" data-slide-to ="13"></li>
+			<li data-target = "#myCarousel" data-slide-to ="14"></li>
+			<li data-target = "#myCarousel" data-slide-to ="15"></li>
+			<li data-target = "#myCarousel" data-slide-to ="16"></li>
+			<li data-target = "#myCarousel" data-slide-to ="17"></li>
+			<li data-target = "#myCarousel" data-slide-to ="18"></li>
+			<li data-target = "#myCarousel" data-slide-to ="19"></li>
+			<li data-target = "#myCarousel" data-slide-to ="20"></li>
+			<li data-target = "#myCarousel" data-slide-to ="21"></li>
+			<li data-target = "#myCarousel" data-slide-to ="22"></li>
+			<li data-target = "#myCarousel" data-slide-to ="23"></li>
+			<li data-target = "#myCarousel" data-slide-to ="24"></li>
+			<li data-target = "#myCarousel" data-slide-to ="25"></li>
+			<li data-target = "#myCarousel" data-slide-to ="26"></li>
+		</ol>
+	
+		<div id = "codecarousel" class = "carousel-inner">
+			<div class ="item active">
+				<img src="setup/install12.PNG" alt = "nest labs" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "text-center btn btn-default">If your previous thermostat is built into the wall, you cannot use nest thermostat.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install13.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You cannot use nest thermostat with high voltage wires.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install14.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Voltages of 110 or 120 are incompatible with nest thermostat.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install23.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Turn off furnace/heating and AC at your circuit breaker.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install1.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You should turn off furnace/heating and AC at your circuit breaker before continuing.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install2.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Take off the cover of your old thermostat to reveal the wires.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install11.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You can easily take off the cover to see the wires of your old thermostat.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install15.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Take a picture of the thermostat for refering what wires it has.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install27.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Check at nest.com/works to see whether the wires of your old thermostat are compatible with the nest thermostat.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install16.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You may remove any unconnected wires and also the jumper wire.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install3.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Unscrew the bolts to free the wires that are still connected to the thermostat.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install17.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Tag the wires with the stickers from the instruction manual.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install18.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Remove your old thermostat from the wall.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install4.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Take the old thermostat off the wall.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install5.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The thermostat has been removed from the wall.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install24.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You can place the frame plating to cover any unsightly holes on the wall</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install25.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You can place the frame plating to cover any unsightly holes on the wall.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install19.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Place the nest frame on the wall while placing the wires through the hole</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install19.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Place the nest frame on the wall with the wires coming through the hole.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install20.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Push down on the compartment button for the designated slot of the wire and place through the slot.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install26.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The wires will noticeably be comfortably placed into their respective compartments.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install21.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Push the wires inward, so that they are neat and in an ordered manner.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install9.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Place the nest display cover on top of the frame.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install22.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You will hear the cover click when pushed onto the frame.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install23.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Turn on the furnace/heating and AC at your circuit breaker.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/install28.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest starts up!</p>
+				</div>
+			</div>
+		</div>
+		<a id = "prev" class = "carousel-control left" href = "#myCarousel" data-slide = "prev"><span class = "glyphicon glyphicon-chevron-left"></span></a>
+		<a id = "next" class = "carousel-control right" href="#myCarousel" data-slide = "next">
+			<span class = "glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+
+		<br></br></br>
+
+	<div class ="text-center">
+	<h2>Set-up</h2>
+	</div>
+	</br>
+	<div id = "myCarousel2" class="carousel slide" data-ride="carousel">
+		<ol class = "carousel-indicators">
+			<li data-target = "#myCarousel2" data-slide-to ="0" class = "active"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="1"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="2"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="3"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="4"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="5"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="6"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="7"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="8"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="9"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="10"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="11"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="12"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="13"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="14"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="15"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="16"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="17"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="18"></li>
+			<li data-target = "#myCarousel2" data-slide-to ="19"></li>
+		</ol>
+	
+		<div id = "codecarousel" class = "carousel-inner">
+			<div class ="item active">
+				<img src="setup/setup1.PNG" alt = "nest labs" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "text-center btn btn-default">Nest Thermostat prompts to begin set-up, which will take a few minutes.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup2.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest will require some information for the best performance.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup3.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest will ask to connect to the internet via wi-fi for remote control, updates, and local weather.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup4.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Select the wireless network that applies to you.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup5.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Input the password of your wireless network by adjusting and clicking the ring to select characters.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup6.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest will check for an update.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup7.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">After the update, Nest will display that Nest is up to date.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup8.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">The thermostat may be too far to connect to your wireless network.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup9.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest will check the wiring of the thermostat.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup10.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">A red circle will appear if a connection is faulty.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup11.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You should input your zip code.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup12.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest will ask whether the building is a home or business.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup13.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest will ask for the type of heating.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup14.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest will ask whether you have forced air heating. You may skip any questions you cannot answer.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup15.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Nest will complete the set-up, and you may now adjust the temperature of the room.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup16.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You can cool the room.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup17.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">Or you can adjust the temperature for heating. Nest will start learning your temperature habits.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup18.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">There are several other settings that you may check or adjust.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup19.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">When you are away, you may signal the thermostat that you are away. Nest will save energy.</p>
+				</div>
+			</div>
+			<div class ="item">
+				<img src="setup/setup20.PNG" alt = "Thermostat" class = "img-responsive img-rounded">
+				<div class = "carousel-caption">
+				<p class = "btn btn-default">You may connect to your thermostat via the computer or mobile application for remote control.</p>
+				</div>
+			</div>
+		</div>
+		<a id = "prev" class = "carousel-control left" href = "#myCarousel2" data-slide = "prev"><span class = "glyphicon glyphicon-chevron-left"></span></a>
+		<a id = "next" class = "carousel-control right" href="#myCarousel2" data-slide = "next">
+			<span class = "glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+</br>
+	<a href="home.html" class = "btn btn-info">Interact</a>
+	<div id = "ring" style ="position: absolute; z-index:101">
+    <img src = "nest/nest%20ring.png" />
+   </div>
+	<div id = "frame" style="position: absolute; z-index:100">
+    <img src= "nest/nest%20frame.png" />
+   </div>
+
+
+	<br></br><br></br>
+	<div class = "navbar navbar-default navbar-fixed-bottom">
+	<div class = "container">
+	<p class = "navbar-text pull-left">Copyright &#169 2014</p> <a href = "http://getbootstrap.com/" class = " navbar-btn btn-info btn pull-right">Powered by Bootstrap</a>
+	</div>
+	</div>
+
+	<div class = "modal fade" action = "send_form_email.php" id = "contact" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<form class = "form-horizontal">
+					<div class = "modal-header">
+						<h4> Contact: How To Nest</h4>
+					</div>
+						<div class = "modal-body">
+							<div class = "form-group">
+								<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+									<div class = "col-lg-10">
+										<input type = "text" class = "form-control" id="contact-name" placeholder = "Full Name">
+									</div>
+							</div>
+						<div class = "form-group">
+							<label for = "contact-email" class = "col-lg-2 control-label">E-mail:</label>
+								<div class = "col-lg-10">
+									<input type = "email" class = "form-control" id="contact-e-mail" placeholder = "you@example.com">
+								</div>
+						</div>
+						<div class = "form-group">
+							<label for = "contact-sub" class = "col-lg-2 control-label">Subject:</label>
+								<div class = "col-lg-10">
+									<input type = "text" class = "form-control" id="contact-sub" placeholder = "Subject">
+								</div>
+						</div>
+							<div class = "form-group">
+								<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+									<div class = "col-lg-10">
+										<textarea class = "form-control" rows ="8" id="contact-msg"></textarea>
+									</div>
+							</div>
+								<div class = "modal-footer">
+									<button type = "submit" class = "btn btn-primary">Submit</button>
+										<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+								</div>
+						</div>
+			</div>
+		</div>
+	</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
